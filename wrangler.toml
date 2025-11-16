@@ -7,7 +7,7 @@ pages_build_output_dir = ".vercel/output/static"
 [[d1_databases]]
 binding = "DB"
 database_name = "katelyatv-db"
-database_id = "7f8ad985-9206-4fa7-b078-2b0f04930ef6"
+database_id = "f1e7923a-fdf2-4b2f-a690-f05464f34568"
 
 [[build.environment_variables]]
 NEXT_PUBLIC_STORAGE_TYPE = "d1"
