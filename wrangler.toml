@@ -12,9 +12,6 @@ database_id = "e3a226af-e27d-46d9-834c-a783d2f9bb57"
 [[build.environment_variables]]
 NEXT_PUBLIC_STORAGE_TYPE = "d1"
 
-[build]
-command = "pnpm install --frozen-lockfile && pnpm run pages:build"
-
 # 生产环境配置
 #[env.production]
 #name = "katelyatv"
