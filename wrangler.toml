@@ -7,7 +7,7 @@ pages_build_output_dir = ".vercel/output/static"
 [[d1_databases]]
 binding = "DB"
 database_name = "katelyatv-db"
-database_id = "e3a226af-e27d-46d9-834c-a783d2f9bb57"
+database_id = "7f8ad985-9206-4fa7-b078-2b0f04930ef6
 
 [[build.environment_variables]]
 NEXT_PUBLIC_STORAGE_TYPE = "d1"
@@ -46,12 +46,12 @@ NEXT_PUBLIC_STORAGE_TYPE = "d1"
 #name = "katelyatv-preview"
 
 # 预览环境 D1 数据库配置
-[[env.preview.d1_databases]]
-binding = "DB"
-database_name = "katelyatv-db"
-database_id = "e3a226af-e27d-46d9-834c-a783d2f9bb57"
+#[[env.preview.d1_databases]]
+#binding = "DB"
+#database_name = "katelyatv-db"
+#database_id = "e3a226af-e27d-46d9-834c-a783d2f9bb57"
 
-# 预览环境变量
+# 环境变量
 [vars]
 NEXT_PUBLIC_STORAGE_TYPE = "d1"
 NEXT_PUBLIC_ENABLE_REGISTER = true
