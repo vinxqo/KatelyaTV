@@ -9,15 +9,21 @@ binding = "DB"
 database_name = "katelyatv-db"
 database_id = "e3a226af-e27d-46d9-834c-a783d2f9bb57"
 
+[[build.environment_variables]]
+NEXT_PUBLIC_STORAGE_TYPE = "d1"
+
+[build]
+command = "pnpm install --frozen-lockfile && pnpm run pages:build"
+
 # 生产环境配置
-[env.production]
-name = "katelyatv"
+#[env.production]
+#name = "katelyatv"
 
 # 生产环境 D1 数据库配置
-[[env.production.d1_databases]]
-binding = "DB"
-database_name = "katelyatv-db"
-database_id = "e3a226af-e27d-46d9-834c-a783d2f9bb57"
+#[[env.production.d1_databases]]
+#binding = "DB"
+#database_name = "katelyatv-db"
+#database_id = "e3a226af-e27d-46d9-834c-a783d2f9bb57"
 
 # 生产环境变量
 [env.production.vars]
@@ -54,7 +60,7 @@ database_id = "e3a226af-e27d-46d9-834c-a783d2f9bb57"
 #NEXT_PUBLIC_SITE_NAME = "KatelyaTV"
 #NEXT_PUBLIC_SITE_DESCRIPTION = "高性能影视播放平台"
 #NEXTAUTH_URL = "https://katelyatv.pages.dev"
-USERNAME = "katelya"
+USERNAME = "admin"
 AUTH_PASSWORD = "ab1433223cd@"
 #IMAGE_PROXY_ENABLED = "true"
 #CACHE_TTL = "3600"
