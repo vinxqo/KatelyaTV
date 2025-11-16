@@ -4,20 +4,20 @@ compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
 
 # 默认 D1 数据库配置（用于命令行操作）
-#[[d1_databases]]
-#binding = "DB"
-#database_name = "katelyatv-db"
-#database_id = "6d580637-1f87-4ddf-8b4d-3d97254b4c33"
+[[d1_databases]]
+binding = "DB"
+database_name = "katelyatv-db"
+database_id = "e3a226af-e27d-46d9-834c-a783d2f9bb57"
 
 # 生产环境配置
 [env.production]
 name = "katelyatv"
 
 # 生产环境 D1 数据库配置
-#[[env.production.d1_databases]]
-#binding = "DB"
-#database_name = "katelyatv-db"
-#database_id = "6d580637-1f87-4ddf-8b4d-3d97254b4c33"
+[[env.production.d1_databases]]
+binding = "DB"
+database_name = "katelyatv-db"
+database_id = "e3a226af-e27d-46d9-834c-a783d2f9bb57"
 
 # 生产环境变量
 [env.production.vars]
@@ -43,10 +43,10 @@ AUTH_PASSWORD = "ab1433223cd@"
 #name = "katelyatv-preview"
 
 # 预览环境 D1 数据库配置
-#[[env.preview.d1_databases]]
-#binding = "DB"
-#database_name = "katelyatv-db"
-#database_id = "6d580637-1f87-4ddf-8b4d-3d97254b4c33"
+[[env.preview.d1_databases]]
+binding = "DB"
+database_name = "katelyatv-db"
+database_id = "e3a226af-e27d-46d9-834c-a783d2f9bb57"
 
 # 预览环境变量
 [env.preview.vars]
