@@ -9,8 +9,8 @@ binding = "DB"
 database_name = "katelyatv-db"
 database_id = "7f8ad985-9206-4fa7-b078-2b0f04930ef6
 
-[[build.environment_variables]]
-NEXT_PUBLIC_STORAGE_TYPE = "d1"
+#[[build.environment_variables]]
+#NEXT_PUBLIC_STORAGE_TYPE = "d1"
 
 # 生产环境配置
 #[env.production]
